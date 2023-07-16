@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+}
+
+h4, ul {
+	margin: 0;
+}
+
+ul {
+	margin-bottom: 1rem;
+}
+#commandLine {
+	display: block;
+	background-color: black;
+	color: green;
+	padding: 1rem;
+}
+
+#commandLineDir {
+	color: dodgerblue;
+}
+
+.commandLineText {
+	color: white;
+}
+
+#commandLineInput {
+	font-weight: bolder;
+}
+
+#container {
+	margin: 1rem;
+}
