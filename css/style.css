@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color: black;
 }
 
 h4, ul {
@@ -30,4 +31,5 @@ ul {
 
 #container {
 	margin: 1rem;
+	color: lightgrey;
 }
