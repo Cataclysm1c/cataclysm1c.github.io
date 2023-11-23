@@ -7,12 +7,6 @@ window.onload = function() {
 let state = false;
 function CommandLineUpdate() {
 	state = !state;
-
-	if(state) {
-		commandLineSelector.innerHTML = " ";
-	}
-	else {
-		commandLineSelector.innerHTML = "_";
-	}
+	commandLineSelector.innerHTML = state ? " " : "_";
 	setTimeout(CommandLineUpdate, 500);
 }
